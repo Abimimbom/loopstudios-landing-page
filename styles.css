@@ -206,7 +206,7 @@ html {
     font-family: var(--ff-josefin);
     text-transform: uppercase;
     font-size: 35px;
-    font-weight: var(--fw-400);
+    font-weight: var(--fw-300);
     height: 100%;
     background: linear-gradient(360deg, hsla(0, 0%, 0%, 1), hsl(0, 0%, 0%, 0));
     z-index: 2;
@@ -233,7 +233,10 @@ html {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
     /* align-items: center; */
+    /* text-align: center; */
     width: 80%;
 }
 
@@ -243,3 +246,33 @@ html {
     gap: 30px;
     margin-top: 2rem;
 }
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 10px;
+}
+
+.copyright {
+    color: var(--clr-very-dark-gray);
+    /* text-align: center; */
+}
+
+.attribution {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    text-align: center;
+    font-family: var(--ff-alata);
+    padding: 2rem 0;
+    color: var(--clr-very-dark-gray);
+}
+
+.attribution a { 
+    color: var(--clr-black);
+    padding: .2rem .4rem;
+    background: var(--clr-white);
+    transform: rotate(30deg);
+}
+
+
