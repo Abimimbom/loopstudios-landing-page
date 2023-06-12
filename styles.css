@@ -371,7 +371,7 @@ html {
     padding: .2rem .4rem;
     background: var(--clr-white);
     transform: rotate(30deg);
-    text-decoration: none`;
+    text-decoration: none;
 }
 
 /* Responsive styles */
