@@ -400,7 +400,7 @@ html {
     }
 
     .hero-section h1 {
-        font-size: 50px;
+        font-size: 40px;
         width: 100%;
     }
 
@@ -520,5 +520,9 @@ html {
 
     .social-icons {
         justify-content: center;
+    }
+
+    .attribution {
+        font-size: 12px;
     }
 }
