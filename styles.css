@@ -494,9 +494,12 @@ html {
 
     .gallery-header button {
         position: absolute;
-        padding: 1rem 4rem;
+        padding: 1rem 0rem;
+        margin: 0 auto;
         bottom: 0;
-        left: 25%;
+        left: 0;
+        right: 0;
+        max-width: 200px;
     }
 
     /* footer styles */
